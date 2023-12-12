@@ -2,8 +2,8 @@ import Navbar from './navbar'
 
 const Header = () => {
     return (
-        <header className="fixed z-20 top-0 left-0 w-full flex justify-between items-center px-8 md:px-32 py-8 bg-white">
-            <span className="header__text">Tóka Patrik</span>
+        <header className="shadow-header fixed left-0 top-0 z-20 flex w-full items-center justify-between gap-4 bg-white px-8 py-8 md:px-32">
+            <span className="header__text whitespace-nowrap">Tóka Patrik</span>
             <Navbar />
         </header>
     )
