@@ -2,26 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+    h1 {
+        @apply text-center uppercase text-6xl md:text-7xl font-bold leading-[4rem] mb-8 text-black;
+    }
+    h2 {
+        @apply text-center uppercase text-4xl md:text-5xl font-bold leading-[4rem] md:leading-[4.5rem]  relative mb-8 text-black;
+    }
+    h2::after {
+        @apply content-[""] absolute bottom-0 left-[50%] bg-primary w-[40px] h-[6px] translate-x-[-50%] rounded;
+    }
+    h3 {
+        @apply uppercase text-2xl md:text-3xl font-bold relative mb-8 text-black;
+    }
+    button {
+        @apply bg-primary text-white px-12 py-4 uppercase font-bold tracking-wide rounded-lg;
+    }
+    p {
+        @apply text-xl;
+    }
+    section {
+        @apply px-8 py-16;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+    .header__text {
+        @apply font-bold uppercase text-solidblack tracking-wide;
+    }
+    .header__nav {
+        @apply pb-4 bg-white flex flex-col gap-4 items-center w-full absolute bottom-0 left-0 translate-y-[100%];
+    }
+    .header__nav-row {
+        @apply p-0 flex flex-row items-center gap-20 w-auto relative translate-y-0;
+    }
+    .hero__bg {
+        background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('/common-bg.svg');
+    }
 }

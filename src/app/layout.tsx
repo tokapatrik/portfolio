@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Source_Sans_3 } from 'next/font/google'
-import Header from './header'
+import Header from '../components/layout/header/header'
 import './globals.css'
-import Footer from './footer'
+import Footer from '../components/layout/footer'
 
 const sourceSans = Source_Sans_3({
     subsets: ['latin'],
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="hu">
-            <body className={`${sourceSans.variable} font-sans`}>
+            <body className={`${sourceSans.variable} font-sans text-darkgray`}>
                 <Header />
                 {children}
                 <Footer />
