@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.028" y1="0.32" x2="1" y2="0.676" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2298bd"/>
+      <stop offset="1" stop-color="#0ed7b5"/>
+    </linearGradient>
+    <clipPath id="clip-tailwind">
+      <rect width="256" height="256"/>
+    </clipPath>
+  </defs>
+  <g id="tailwind" clip-path="url(#clip-tailwind)">
+    <rect width="256" height="256" fill="rgba(255,255,255,0)"/>
+    <path id="Tailwind_CSS" data-name="Tailwind CSS" d="M96.509,0q-38.6,0-48.254,38.6Q62.731,19.3,82.033,24.127c7.341,1.835,12.589,7.162,18.4,13.057,9.462,9.6,20.413,20.721,44.333,20.721q38.6,0,48.254-38.6Q178.541,38.6,159.24,33.778c-7.341-1.835-12.589-7.162-18.4-13.057C131.379,11.116,120.429,0,96.509,0ZM48.254,57.905q-38.6,0-48.254,38.6,14.476-19.3,33.778-14.476c7.341,1.835,12.589,7.162,18.4,13.057,9.462,9.6,20.413,20.721,44.333,20.721q38.6,0,48.254-38.6-14.476,19.3-33.778,14.476c-7.341-1.835-12.589-7.162-18.4-13.057C83.125,69.021,72.174,57.905,48.254,57.905Z" transform="translate(31.491 70.095)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

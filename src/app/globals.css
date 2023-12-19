@@ -15,14 +15,33 @@
     h3 {
         @apply relative mb-8 text-2xl font-bold uppercase text-black md:text-3xl;
     }
-    button {
-        @apply rounded-lg bg-primary px-12 py-3 font-bold uppercase tracking-wide text-white;
+    h4 {
+        @apply relative mb-8 text-2xl font-bold text-black md:text-3xl;
+    }
+    button,
+    [type='button'],
+    [type='reset'],
+    [type='submit'] {
+        @apply rounded-lg bg-primary px-12 py-3 font-bold uppercase text-white shadow-md;
     }
     p {
         @apply md:text-lg;
     }
     section {
-        @apply px-4 py-20;
+        @apply px-6 py-20 md:py-32;
+    }
+    a {
+        @apply font-bold text-primary underline underline-offset-2;
+    }
+    label {
+        @apply mb-2 block text-base font-bold uppercase;
+    }
+    input,
+    textarea {
+        @apply w-full rounded border-middlegray bg-solidgray px-4 py-3 text-base font-semibold text-solidblack focus:outline-0;
+    }
+    small {
+        @apply md:text-base;
     }
 }
 
@@ -36,7 +55,7 @@
     .header__nav-row {
         @apply relative flex w-auto translate-y-0 flex-row items-center gap-20 p-0;
     }
-    .hero__bg {
+    .common-bg {
         background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('/common-bg.svg');
     }
 }

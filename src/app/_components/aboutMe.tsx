@@ -1,4 +1,4 @@
-const TECH_STACK = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next', 'AWS', 'NodeJS', 'Express', 'GIT', 'Github', 'Docker', 'SQL/NoSQL databases', 'PHP']
+const TECH_STACK = ['TypeScript', 'React', 'Next', 'AWS', 'NodeJS', 'Express', 'GIT', 'Github', 'Docker', 'SQL/NoSQL databases', 'PHP', 'HTML', 'CSS', 'JavaScript']
 
 const AboutMe = () => {
     return (

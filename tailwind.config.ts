@@ -11,8 +11,11 @@ const config: Config = {
                 black: '#111',
                 solidblack: '#333',
                 darkgray: '#666',
+                solidgray: '#f0f0f0',
+                middlegray: '#ebebeb',
                 primary: '#7843e9',
-                solidwhite: '#fefefe'
+                solidwhite: '#fefefe',
+                danger: '#dc3545'
             },
             boxShadow: {
                 header: '0 10px 100px rgba(0,0,0,.1);'

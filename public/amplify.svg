@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.222" x2="0" y2="0.778" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f90"/>
+      <stop offset="1" stop-color="#ffc300"/>
+    </linearGradient>
+    <clipPath id="clip-amplify">
+      <rect width="256" height="256"/>
+    </clipPath>
+  </defs>
+  <g id="amplify" clip-path="url(#clip-amplify)">
+    <rect width="256" height="256" fill="rgba(255,255,255,0)"/>
+    <g id="aws-ampliify-seeklogo.com" transform="translate(37.936 47.063)">
+      <path id="Path_25" data-name="Path 25" d="M40.5,115.222H92.93l13.429,23.635H0L37.345,74.145,53,47.045,66.432,70.328ZM60.057,34.79l12.9-22.354L145.97,138.858H120.113ZM80.138,0H105.96l80.168,138.858H160.274Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
