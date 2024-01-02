@@ -18,7 +18,7 @@ const config: Config = {
                 danger: '#dc3545'
             },
             boxShadow: {
-                header: '0 10px 100px rgba(0,0,0,.1);'
+                strong: '0 10px 100px rgba(0,0,0,.1);'
             }
         }
     },

@@ -1,4 +1,4 @@
-import './scroll.modul.css'
+import './scroll.css'
 
 const Scroll = ({ className }: { className: string }) => {
     return (
