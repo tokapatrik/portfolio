@@ -63,7 +63,7 @@ const Projects = () => {
                     </div>
                     <p className="text-center">
                         Forrás:{' '}
-                        <a href="" className="text-primary">
+                        <a href="https://github.com/tokapatrik/portfolio" className="text-primary">
                             GitHub
                         </a>
                     </p>
