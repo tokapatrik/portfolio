@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 import Anchor from '@/components/anchor'
+import Image from 'next/image'
 
 const NAV_LINKS = [
     {
@@ -31,7 +32,10 @@ const Header = () => {
         <header className="shadow-strong fixed left-0 top-0 z-10  w-full bg-white font-bold uppercase tracking-wide text-solidblack">
             <div className="m-auto max-w-[1600px]">
                 <div className="flex flex-wrap items-center py-4">
-                    <span className="flex-none whitespace-nowrap">Tóka Patrik</span>
+                    <div className="flex items-center gap-2">
+                        <Image alt="logo" src={'logo.svg'} height={30} width={30} />
+                        <span className="flex-none whitespace-nowrap">Tóka Patrik</span>
+                    </div>
                     <div className="ml-auto flex flex-none items-center">
                         <nav className="hidden gap-16 md:flex">
                             <NavLinks setIsOpen={setIsOpen} />
