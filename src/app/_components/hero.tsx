@@ -13,7 +13,7 @@ const Hero = () => {
                 Tudj meg többet!
             </Anchor>
             <Scroll className="absolute bottom-16 left-[50%] hidden translate-x-[-50%] md:block" />
-            <SocialIcons className="top-50 shadow-strong absolute left-0 hidden flex-col gap-4 bg-solidwhite p-4 text-solidblack md:flex" />
+            <SocialIcons className="top-50 absolute left-0 hidden flex-col gap-4 bg-solidwhite p-4 text-solidblack shadow-lg md:flex" />
         </section>
     )
 }

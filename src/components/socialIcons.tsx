@@ -30,7 +30,7 @@ const SocialIcons: React.FC<HTMLProps<HTMLDivElement>> = ({ className }) => {
     return (
         <div className={className}>
             {SOCIAL_ICONS.map((icon) => (
-                <a key={icon.id} href={icon.link}>
+                <a key={icon.id} href={icon.link} className="transition hover:scale-[1.1] hover:text-primary">
                     <FontAwesomeIcon className="h-8" icon={icon.icon} />
                 </a>
             ))}
