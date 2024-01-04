@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Source_Sans_3 } from 'next/font/google'
 import { ToastContainer } from 'react-toastify'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from '../components/layout/footer'
 import './globals.css'
 import 'react-toastify/dist/ReactToastify.css'
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="hu">
             <body className={`${sourceSans.variable} font-sans leading-[2] text-darkgray`}>
+                <SpeedInsights />
                 <ToastContainer />
                 <Header />
                 {children}
