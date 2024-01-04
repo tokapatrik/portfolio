@@ -58,11 +58,8 @@ export const metadata: Metadata = {
         'JavaScript'
     ],
     openGraph: {
-        type: 'website',
-        url: 'https://tokapatrik.hu',
         title: 'Tóka Patrik - Full Stack Fejlesztő',
         description: 'Fedezd fel kreatív és innovatív webes projekteimet, ahol a technológia és dizájn találkozik. Nézd meg munkáimat és ismerj meg!',
-        siteName: 'Tóka Patrik - Full Stack Fejlesztő',
         images: [
             {
                 url: 'https://tokapatrik.hu/og_image.webp'
