@@ -29,11 +29,11 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <header className="shadow-strong fixed left-0 top-0 z-10  w-full bg-white font-bold uppercase tracking-wide text-solidblack">
+        <header className="fixed left-0 top-0 z-10 w-full  bg-white font-bold uppercase tracking-wide text-solidblack shadow-strong">
             <div className="m-auto max-w-[1600px]">
                 <div className="flex flex-wrap items-center py-4">
                     <div className="flex items-center gap-2">
-                        <Image alt="logo" src={'logo.svg'} height={30} width={30} />
+                        <Image alt="logo" src={'/logo.webp'} height={30} width={30} />
                         <span className="flex-none whitespace-nowrap">Tóka Patrik</span>
                     </div>
                     <div className="ml-auto flex flex-none items-center">
